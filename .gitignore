@@ -1,0 +1,4 @@
+# Project exclude paths
+/target/
+/g33-classes.iml
+/.idea/
