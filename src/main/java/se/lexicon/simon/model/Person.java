@@ -22,15 +22,12 @@ public class Person {
         this.sleeping = sleeping;
     }
 
-
-
-    //Constructor
+    // Parameterized Constructor
     public Person (String firstName, String lastName){
         this();
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
 
     //No-args Constructor - Initializing NO or setting a default value fields in the class
     public Person(){
@@ -41,7 +38,6 @@ public class Person {
         this.age = 255;
         this.sleeping = true;
     }
-
 
 
     //Your custom methods
